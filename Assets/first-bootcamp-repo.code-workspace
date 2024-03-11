@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../../first-bootcamp-repo"
+		},
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "02-Advanced-CSS"
+	}
+}
