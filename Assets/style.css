@@ -20,17 +20,27 @@ header {
     background-color: navy;
     color: white;
     padding: 8px;
-    border: 2px solid purple;
+    border: 2px solid var(--borders);
+}
+
+main {
+    display: flex;
+    flex-flow: wrap column;    
+    align-items: center;
 }
 
 section {
     background: rgb(37, 202, 243);
     margin: 20px 20px 20px 20px;
     padding: 4px;
-    border: 2px solid purple;
+    border: 2px solid var(--borders);
     max-width: 500px;
+    min-width: 300px;
+    
     
 }
+
+
 
 p {
     display: block;
@@ -49,11 +59,15 @@ h2 {
 
 
 
-main {
-    display: flex;
-    justify-content: right;
-    flex-flow: row wrap;
-    
+
+
+img {
+    margin: 20px 20px 20px 20px;
+    padding: 4px;
+    border: 2px solid var(--borders);
+    max-width: 200px;
+    white-space: inherit;
+    opacity: 50%;
 }
 
 
@@ -75,18 +89,26 @@ nav ul li a {
 
 
 
-
+a:hover {
+    color: lightgray;
+}
 
 section:hover {
     background-color: rgb(188, 249, 253);
-    box-shadow: ;
-    
+    box-shadow: 10px 15px 15px grey;
+    left: 10px;
 }
 
 section:hover .content {
     display: block;
     text-wrap: wrap;
     
+    
+}
+
+img:hover {
+    background-color: white;
+    opacity: 100%;
 }
 
 
@@ -96,7 +118,7 @@ footer {
     height: fit-content;
     margin: 2px;
     padding: 2px;
-    border: 2px solid purple;
+    border: 2px solid var(--borders);
     font-weight: bolder;
 }
 
@@ -108,4 +130,4 @@ footer {
         flex-flow: column wrap;
     }
 
-  }
+}
