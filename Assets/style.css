@@ -74,6 +74,7 @@ img {
 
 .content {
     display: none;
+    color: black;
     text-wrap: wrap;
 }
 
