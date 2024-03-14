@@ -6,7 +6,7 @@
 
 
 body {
-    background-color: antiquewhite;
+    background: linear-gradient(rgb(205, 118, 226), rgb(188, 249, 253));
     line-height: 1.5;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -17,7 +17,7 @@ header {
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
-    background-color: navy;
+    background-color: rgb(217, 154, 233);
     color: white;
     padding: 8px;
     border: 2px solid var(--borders);
@@ -30,13 +30,13 @@ main {
 }
 
 section {
-    background: rgb(37, 202, 243);
+    background: linear-gradient(rgb(186, 5, 231), rgb(188, 249, 253));
     margin: 20px 20px 20px 20px;
     padding: 4px;
     border: 2px solid var(--borders);
     max-width: 500px;
     min-width: 300px;
-    
+    border-radius: 20px;
     
 }
 
@@ -62,7 +62,7 @@ h2 {
 
 
 img {
-
+    border-radius: 20px;
     margin: 20px 20px 20px 20px;
     padding: 4px;
     border: 2px solid var(--borders);
@@ -83,7 +83,7 @@ nav ul {
 }
 
 nav ul li a {
-    color: grey;
+    color: white;
     text-decoration: none;
 }
 
@@ -94,7 +94,8 @@ a:hover {
 }
 
 section:hover {
-    background-color: rgb(188, 249, 253);
+    background: linear-gradient(rgb(186, 5, 231), white);
+    
     box-shadow: 10px 15px 15px grey;
     left: 10px;
 }
