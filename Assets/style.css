@@ -73,7 +73,7 @@ img {
 
 
 .content {
-    display: block;
+    display: none;
     text-wrap: wrap;
 }
 
