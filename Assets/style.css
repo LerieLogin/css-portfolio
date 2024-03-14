@@ -17,7 +17,8 @@ header {
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
-    background-color: linear-gradient(rgb(205, 118, 226), rgb(188, 249, 253));;
+    border-radius: 20px;
+    background: linear-gradient(rgb(195, 52, 231), rgb(188, 249, 253));;
     color: white;
     padding: 8px;
     border: 2px solid var(--borders);
