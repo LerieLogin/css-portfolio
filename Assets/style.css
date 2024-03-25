@@ -46,7 +46,7 @@ section {
 section:hover {
     background: linear-gradient(rgb(186, 5, 231), white);
     box-shadow: 10px 15px 15px grey;
-    max-width: fit-content;
+    max-width: 500px;
 }
 
 
