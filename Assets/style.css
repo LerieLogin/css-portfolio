@@ -35,10 +35,18 @@ section {
     margin: 20px 20px 20px 20px;
     padding: 4px;
     border: 2px solid var(--borders);
-    max-width: 500px;
-    min-width: 300px;
-    border-radius: 20px;
+    max-width: 300px;
+    max-height: 400px;
+    transition: max-width 400ms ease-in;
     
+    /* transition: max-height 400ms ease-in; */
+    border-radius: 20px; 
+}
+
+section:hover {
+    background: linear-gradient(rgb(186, 5, 231), white);
+    box-shadow: 10px 15px 15px grey;
+    max-width: fit-content;
 }
 
 
@@ -73,7 +81,8 @@ img {
 
 
 .content {
-    display: none;
+    /* display: none; */
+    /* opacity: 0%; */
     color: black;
     text-wrap: wrap;
 }
@@ -94,20 +103,40 @@ nav ul li a {
 a:hover {
     color: lightgray;
 }
-
-section:hover {
-    background: linear-gradient(rgb(186, 5, 231), white);
+/* 
+@keyframes greg {
+    from {max-width: 100px;}
+    to {max-width: 500px;}
     
-    box-shadow: 10px 15px 15px grey;
-    left: 10px;
+} */
+
+
+
+/* @keyframes george {
+    0% {opacity: 5%;}
+    20% {opacity: 10%;}
+    40% {opacity: 30%;}
+    60% {opacity: 50%;}
+    80% {opacity: 70%;}
+    100% {opacity: 100%;}
+} */
+/* figure out this animation jfc */
+section .content {
+    opacity: 0%;
+    transition: opacity 400ms ease-in;
+    /* transition-delay: 1s; */
 }
 
 section:hover .content {
     display: block;
     text-wrap: wrap;
-    
-    
+    opacity: 100%;
+    /* animation-name: george; */
+    /* animation-delay: 200ms;
+    animation-duration: 400ms; */
 }
+
+
 
 img:hover {
     background-color: white;
